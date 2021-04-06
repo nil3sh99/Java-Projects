@@ -1,4 +1,4 @@
-### Instructions to run the game: <br>
+## Instructions to run the game: <br>
 1. Download the source code. <br>
 2. Open the folder in your editor (Eclipse, NetBeans etc)
 3. Navigate to main.java file
