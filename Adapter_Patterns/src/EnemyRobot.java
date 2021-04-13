@@ -1,5 +1,5 @@
 /**
- * This is adaptee class.
+ * This is the adaptee class.
  */
 
 import java.util.Random;
