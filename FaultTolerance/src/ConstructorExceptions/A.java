@@ -1,3 +1,4 @@
+package ConstructorExceptions;
 
 public class A extends B {
 	static char classToThrow;

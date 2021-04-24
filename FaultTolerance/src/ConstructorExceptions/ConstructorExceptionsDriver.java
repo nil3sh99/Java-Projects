@@ -1,3 +1,5 @@
+package ConstructorExceptions;
+
 import java.util.Scanner;
 
 public class ConstructorExceptionsDriver {

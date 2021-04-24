@@ -1,3 +1,4 @@
+package ConstructorExceptions;
 
 public class C {
 	C(char classToThrow) throws Exception { 
