@@ -1,3 +1,5 @@
+package Boiler;
+
 @SuppressWarnings("serial")
 public class SensorException extends HardwareException {
 	public String toString() {

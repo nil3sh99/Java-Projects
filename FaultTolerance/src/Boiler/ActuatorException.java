@@ -1,3 +1,5 @@
+package Boiler;
+
 @SuppressWarnings("serial")
 public class ActuatorException extends HardwareException {
 	public ActuatorException(HardwareState new_s) {

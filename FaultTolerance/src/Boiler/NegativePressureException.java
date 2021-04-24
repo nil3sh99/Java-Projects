@@ -1,3 +1,5 @@
+package Boiler;
+
 @SuppressWarnings("serial")
 public class NegativePressureException extends SensorException {
 	public NegativePressureException(int new_v) {

@@ -1,3 +1,5 @@
+package Boiler;
+
 @SuppressWarnings("serial")
 public class StuckValveException extends ActuatorException {
 	public StuckValveException(HardwareState new_s) {

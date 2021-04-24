@@ -1,3 +1,5 @@
+package Boiler;
+
 import java.io.*;
 import java.io.BufferedWriter;
 import java.io.IOException;

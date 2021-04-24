@@ -1,3 +1,6 @@
+package Boiler;
+
+
 public class Boiler {
 	public Boiler() {
 		System.out.println("in Boiler constructor");
@@ -22,6 +25,10 @@ public class Boiler {
 		pressureReportFile.close();
 	}
 
+	/**
+	 * While the boiler state == safe, then getPressure() method is ran, and in case any exception occurs,
+	 * it is handled by catch block
+	 */
 	void start() {
 		System.out.println("in Boiler::start()");
 		while (boilerState == BoilerState.safe) {

@@ -1,3 +1,5 @@
+package Boiler;
+
 @SuppressWarnings("serial")
 public class OverloadPressureException extends SensorException {
 	public OverloadPressureException(int new_v) {
