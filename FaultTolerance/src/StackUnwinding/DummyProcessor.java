@@ -1,3 +1,5 @@
+package StackUnwinding;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -9,7 +11,7 @@ public class DummyProcessor {
 	private Dummy pd;
 
 	public DummyProcessor(Dummy d) {
-		pd = d;
+		pd = d; //assigning the passed parameter to private data type pd, which is an object of class Dummy (String or Int).
 	}
 
 	public void write() throws IOException {
@@ -17,8 +19,7 @@ public class DummyProcessor {
 		// if askUser() fails below, localBDummy would be released 
 		// for the garbage collector to process
 		Dummy localBDummy = new Dummy("Local write() Dummy");
-		BufferedWriter file = new BufferedWriter(new FileWriter(
-				"src/DummyOutput.txt"));
+		BufferedWriter file = new BufferedWriter(new FileWriter("src/DummyOutput.txt"));
 		file.write(pd.dummyName + ", " + pd.age);
 		// never closed if write throws an exception!
 		// solution is to catch here, or else a resource is leaked

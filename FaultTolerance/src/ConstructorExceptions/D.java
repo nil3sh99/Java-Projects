@@ -1,3 +1,4 @@
+package ConstructorExceptions;
 
 public class D {
 	D(char classToThrow) throws Exception{
