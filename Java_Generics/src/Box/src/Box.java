@@ -11,9 +11,13 @@ public class Box<T> {
 
     private T t; 
     
-    public Box(){}
+    public Box(){
+    	
+    }
     
-    public Box(T newT){ t= newT; }
+    public Box(T newT){ 
+    	t= newT; 
+    }
 
     public void set(T t) {
         this.t = t;
@@ -38,6 +42,10 @@ public class Box<T> {
         return u;
     } 
     
+    /**
+     * Wild card generic type, it can accept any non-primitive data type.
+     * @param b
+     */
     public void bla(Box<?> b) {
     	b.inspect();
     }
@@ -49,7 +57,7 @@ public class Box<T> {
         String s = numberBox.inspectAndReturnWithAdditionalType("Hello world");
         System.out.println("type name of numberBox : " + numberBox.getClass().getName());
 
-        Box<?> questionBox = new Box<Integer>(1);
+        Box<?> questionBox = new Box<Integer>(1); //wild card generic, which can accept any type of data type
         questionBox.inspect();
         System.out.println("type name of questionBox : " + questionBox.getClass().getName());
         questionBox.bla(new Box<Double>(1.0));

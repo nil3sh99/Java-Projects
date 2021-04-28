@@ -1,11 +1,18 @@
+package Pair.src;
+
 import java.util.ArrayList;
 
 public class PairDriver {
 
 	public static void main(String[] args) {
-		Pair<String, Integer> p1 = new Pair<String, Integer>("Hello", 1);
+		
+		// This Pair data type can accept two data types, String and Integer
+		
+		Pair<String, Integer> p1 = new Pair<String, Integer> ("Hello", 1);
 		System.out.println(p1);
 
+		// This ArrayList data type is bounded generic type with Integer type as input
+		
 		ArrayList<Integer> v1 = new ArrayList<Integer>();
 		for (int x = 1; x <= 3; x++)
 			v1.add(new Integer(x));
