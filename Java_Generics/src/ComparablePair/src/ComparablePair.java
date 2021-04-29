@@ -1,3 +1,5 @@
+package ComparablePair.src;
+
 /**
  * Immutable generic pair class added with the Comparable interface. Elements of
  * the first type are comparable with themselves. Elements of the second type
