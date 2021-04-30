@@ -1,5 +1,4 @@
-
-package Basket.src.Basket;
+package Basket;
 import Fruits.Apple;
 import Fruits.Fruit;
 import Fruits.Orange;

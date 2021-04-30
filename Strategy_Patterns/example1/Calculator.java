@@ -1,3 +1,6 @@
+/**
+ * This is the Context class which perform the strategic method.
+ */
 /** Class configured with a ConcreteStrategy object and maintains
 *   a reference to a Strategy object. Depending on which strategy is 
 *   plugged in, it will execute a different operation.  

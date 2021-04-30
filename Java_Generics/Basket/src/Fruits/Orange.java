@@ -1,4 +1,4 @@
-package Basket.src.Fruits;
+package Fruits;
 
 public class Orange extends Fruit {
 
