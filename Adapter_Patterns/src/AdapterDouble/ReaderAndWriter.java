@@ -27,7 +27,8 @@ public class ReaderAndWriter {
 			kbd_rdr = new StringReader();
 			break;
 		case 2:
-			kbd_rdr = new DoubleReader();
+			DoubleReader s_doubleReader = new DoubleReader();
+			kbd_rdr = new DoubleToStringReaderAdapter(s_doubleReader);
 			break;
 		default: 
 			kbd_rdr = new StringReader();

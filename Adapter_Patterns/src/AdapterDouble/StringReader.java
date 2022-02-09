@@ -3,6 +3,11 @@
 /////////////////////////////////
 import java.util.LinkedList;
 
+/**
+ * 
+ * @author Nilesh Aggarwal
+ *
+ */
 public class StringReader {
 	public LinkedList<String> read_kbd() {
 	    String string = new String();
